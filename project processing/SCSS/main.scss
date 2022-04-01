@@ -11,6 +11,8 @@ $maxlap: "(max-width: 1280px)";
 
 $minDesk: "(min-width: 1281px)";
 
+$brightColor: rgb(83, 157, 105);
+
 
 * {
     padding: 0;
@@ -218,6 +220,7 @@ header {
             p:nth-of-type(2) {
                 padding: 8px 0;
                 font-size: 21px;
+                color: $brightColor;
             }
             .hiring-buts {
                 button {
@@ -281,6 +284,7 @@ header {
                 font-size: 26px;
             }
             span {
+                color: $brightColor;
                 font: {
                     size: 14px;
                     weight: 900;
@@ -376,6 +380,7 @@ header {
     .serv-desc {
         margin-bottom: 40px;
         span {
+            color: $brightColor;
             font: {
                 size: 14px;
                 weight: 900;
@@ -403,6 +408,7 @@ header {
                 display: inline-block;
                 line-height: 30px;
                 font-weight: bolder;
+                color: $brightColor;
             }
             h3 {
                 margin: 10px 0;
@@ -471,6 +477,9 @@ header {
             size: 22px;
             weight: bold
         }
+        span {
+            color: $brightColor;
+        }
     }
     button {
         width: 200px;
@@ -504,8 +513,8 @@ header {
             transition: 0.3s ease;
             height: 34px;
             border-radius: 50%;
-            color: black;
-            background-color: rgb(190, 190, 190);
+            color: $brightColor;
+            background-color: rgb(0, 0, 0);
             text-align: center;
             line-height: 34px;
             &:not([class=twitter]) {
